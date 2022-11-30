@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="español">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TACOMETRO DIGITAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+    rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" />
+    <link 
+     rel="stylesheet" 
+     href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/conctact.css">
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img 
+          height="50" 
+          width="50" 
+          src="img/tacometro.PNG" 
+          alt="programador" 
+          />
+          <div>
+            andres felipe<br />
+            { tacometro }
+          </div>
+          </a>
+          <button class="open-menu" aria-label="abrir menu">
+          <img height="50" width="50" src="img/abrir.png" alt="abrir menu">
+          </button>
+          <ul class="menu">
+            <button class="close-menu" aria-label="cerrar menu">
+              <img height="50" width="50" src="img/cerrado.png" alt="cerrar menu">
+            </button>
+            <li><a href="#profile" class="selected">perfil</a></li>
+            <li><a href="#experience">experencias</a></li>
+            <li><a href="#skills">habilidades</a></li>
+            <li><a href="#contact">contacto</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile"id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Hola, soy <br />Andres Felipe</h1>
+          <p class="profile-details">
+            Soy un creador de video juegos, desarrollador de software con mas de 1 año de experencia en varios lenguajes de programacion y tecnologias.
+          </p>
+          <button class="profile-btn">
+            Descargar cv
+          </button>
+        </div>
+        <span class="profile-img-section">
+          <img
+          class="profile-img"
+          src="img/piipe_image.jpg"
+          alt="programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+    
+<section class="experiences" id="experience">
+  <img src="wave.svg" alt="division" class="wave"> 
+  <div class="experiences-body">
+    <h2 class="experiences-title">experencia</h2>
+    <div class="experiences-grid">
+      <div class="empty"></div>
+      <div class="line"></div>
+      <div class="experience">
+        <div class="experience-date">2021-2022</div>
+        <div class="experience-company">Costellation Agency</div>
+        <div class="experience-position">Señor Software Andres</div>
+        <div class="experience-decription">
+          Desarrollo de la intefaz y el back-end de un SaaS usando por cientos de clientes para desplegar anuncios a escala. Usamos React.js, TypeScript, Cypress, Node.js Serveless y la infraestructura de AWS (entre otras tecnologias).
+        </div>
+      </div>
+      <div class="experience experience_left">
+        <div class="experience-date">2021-2022</div>
+        <div class="experience-company">Modus create</div>
+        <div class="experience-position">Señor Software Andres</div>
+        <div class="experience-decription">
+          Implemetacion de una nueva version de la plataforma que permite de forma inteligente emparejar estudiantes con instituciones educativas. Usamos tecnologias como React.js, GraphQL, ElasticSearch, Node.js y otras que nos permitieron lograr una mejor notable en el rendimiento de la plataforma.
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+      <div class="line"></div>
+      <div class="experience">
+        <div class="experience-date">2021-2022</div>
+        <div class="experience-company">Endava</div>
+        <div class="experience-position">Señor Software Andres</div>
+        <div class="experience-decription">
+          Desarrollado de soluciones para un cliente en la industria inmobiliaria y otro lider en servicios medicos en USA. Implemetamos una arquitectura desacoplada usando .Net para el blac-end y react.js en el front-end. Ademas de brindar capacitaciones a la empresa sobre temas como principios SOLID y DDD.
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="wave.svg" alt="division" class="wave wave_bottom">
+</section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">Node.js</li>
+          <li class="skills-skill">React.js</li>
+          <li class="skills-skill">TypeScript</li>
+          <li class="skills-skill">JavaScript</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact" id="contact">
+        <h2 class="contact-title">contacto</h2>
+        <div class="contact-detail">
+          <div class="contact-details-group">
+            <p class="contact-label">Direccion:</p>
+            <p class="contact-text">Motevideo, dosquebrada</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-label">Email:</p>
+            <p class="contact-text">andresfelipe16super2016@gmail.com</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-text">Deje su mesaje y con gusto le respondere
+            </p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="contact-form-group">
+            <label for="name">Nombre</label>
+            <input required type="text" name="name" id="name">
+          </div>
+          <div class="contact-form-group">
+            <label for="email">Email</label>
+            <input required type="email" name="email" id="email">
+          </div>
+          <div class="contact-form-group">
+            <label for="message">Mensaje</label>
+            <textarea required name="message" id="message" rows="6"></textarea>
+          </div>
+
+          <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+        <nav class="social">
+          <ul class="social-list">
+            <li>
+              <a href="https://www.facebook.com/piipe.jimenez.1804109">
+                <img src="img/facebook.png" alt="facebook profile">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://www.instagram.com/piipe_jimenez/">
+                <img src="img/instagram.png" alt="instagram profile">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </body>
+</html>
